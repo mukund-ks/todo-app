@@ -6,11 +6,11 @@ const Todo = (props) => {
     };
 
     return (
-        <div>
-            <div className={styles.todoItem}>
-                <h3 className={styles.todoName}>{props.todoItem.name}</h3>
-                <button onClick={todoDelete} className={styles.todoDone}>Done</button>
+        <div className={styles.todoItem}>
+            <div className={styles.todoName}>
+                <h3>{props.todoItem.name}</h3>
             </div>
+            <button onClick={todoDelete} className={styles.todoDone}>Done</button>
         </div>
     );
 };

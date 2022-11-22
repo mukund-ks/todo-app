@@ -1,7 +1,7 @@
 import styles from '../style.module.css';
 
 const Header = ()=>{
-    return <div className={styles.header}>Todo App</div>
+    return <div className={styles.header}>To Do</div>
 };
 
 export default Header;

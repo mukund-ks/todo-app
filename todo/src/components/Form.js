@@ -15,12 +15,14 @@ const Form = ({ todo, setTodo, todoList, setTodoList }) => {
         // console.log(todoList);
     }
     return (
-        <div className={styles.todoForm}>
+        <span>
             <form onSubmit={submitHandler}>
-                <input value={todo} onChange={todoHandler} className={styles.todoInput} placeholder='Add Item'></input>
-                <button type='submit' className={styles.todoButton}>Add</button>
+                <div className={styles.todoForm}>
+                    <input value={todo} onChange={todoHandler} className={styles.todoInput} placeholder='Task'></input>
+                    <button type='submit' className={styles.todoButton}>Add</button>
+                </div>
             </form>
-        </div>
+        </span>
     );
 };
 
