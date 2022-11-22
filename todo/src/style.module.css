@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: teal;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+
+.todoForm {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.todoInput {
+    width: 100%;
+    border: 1px solid grey;
+    font-size: 20px;
+    text-align: center;
+    height: 50px;
+}
+
+.todoButton {
+    width: 100%;
+    border: none;
+    height: 50px;
+    background-color: slategray;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+.todoItem {
+    margin: auto;
+    border: 2px solid grey;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* .todoName {
+
+} */
+
+.todoDone {
+    border: none;
+    height: 50px;
+    background-color: slategray;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+}
